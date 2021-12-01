@@ -20,9 +20,9 @@ function collect_ratings() {
     } );
 
     if (ratings.count !==0) {
-        ratings.count =ratings.average / ratings.count;   
+        ratings.average =ratings.average / ratings.count;   
     }
-          return rating;
+          return ratings;
 
 }
 
